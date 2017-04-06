@@ -1,0 +1,30 @@
+<ion-view title="signup" hide-nav-bar="true" id="page9" style="background-color:#57D1C9;">
+  <ion-content padding="true" style="background: url(img/umaStUdTPqgL1NE0St1O_doctorBack.png) no-repeat center;background-size:cover;" class="manual-ios-statusbar-padding">
+    <div id="signup-markdown4" ng-if="error" class="show-list-numbers-and-dots error-box">
+      <p style="color:#000000;">{{error}}</p>
+    </div>
+    <div>
+      <img src="img/KQD8ESBDR52ysq0z2zOw_iconoSalud.png" style="display:block;width:25%;height:auto;">
+    </div>
+    <form id="signup-form5" class="list">
+      <div class="spacer" style="width: 300px; height: 84.9653px;"></div>
+      <ion-list id="signup-list6">
+        <label class="item item-input transparent" id="signup-input7">
+          <span class="input-label">Nombre</span>
+          <input type="text" placeholder="" ng-model="data.nombre">
+        </label>
+        <label class="item item-input transparent" id="signup-input9">
+          <span class="input-label">Email</span>
+          <input type="text" placeholder="" ng-model="data.email">
+        </label>
+        <label class="item item-input transparent" id="signup-input8">
+          <span class="input-label">Password</span>
+          <input type="password" placeholder="" ng-model="data.password">
+        </label>
+      </ion-list>
+      <div class="spacer" style="width: 300px; height: 34.9931px;"></div>
+      <a ui-sref="home.misCitas" id="signup-button4" ng-click="signup" class="button button-energized  button-block transparent">Sign up</a>
+      <a ui-sref="login" id="signup-button5" class="button button-positive  button-block button-clear">ya tengo una cuenta</a>
+    </form>
+  </ion-content>
+</ion-view>

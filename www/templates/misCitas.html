@@ -1,0 +1,12 @@
+<ion-view title="Mis citas" id="page2">
+  <ion-content padding="true" class="has-header">
+    <ion-list id="misCitas-list4" class="manual-list-fullwidth">
+      <ion-item class="item-thumbnail-left item-icon-right" id="misCitas-list-item8" ui-sref="home.detalle({&quot;cita&quot;:&quot;&quot;+cita.$id+&quot;&quot;})" ng-repeat="cita in citas">
+        <h2>{{cita.especialista}}</h2>
+        <p style="white-space:normal;">{{cita.especialidad}}</p>
+        <i class="icon ion-android-arrow-dropright-circle"></i>
+        <ion-option-button class="button-positive">ver detalle</ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

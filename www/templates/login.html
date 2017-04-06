@@ -1,0 +1,27 @@
+<ion-view title="Login" hide-nav-bar="true" id="page8">
+  <ion-content padding="true" style="background: url(img/RkaZcF5TY2cAMYtOVU32_doctorBack.png) no-repeat center;background-size:cover;" class="manual-ios-statusbar-padding">
+    <div id="login-markdown2" ng-if="error" class="show-list-numbers-and-dots error-box">
+      <p style="color:#000000;">{{error}}</p>
+    </div>
+    <div class="spacer" style="width: 300px; height: 48.934px;"></div>
+    <div>
+      <img src="img/KQD8ESBDR52ysq0z2zOw_iconoSalud.png" style="display: block; width: 25%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <form id="login-form4" class="list">
+      <div class="spacer" style="width: 300px; height: 93.9792px;"></div>
+      <ion-list id="login-list5">
+        <label class="item item-input transparent" id="login-input5">
+          <span class="input-label">Email</span>
+          <input type="text" placeholder="">
+        </label>
+        <label class="item item-input transparent" id="login-input6">
+          <span class="input-label">Password</span>
+          <input type="password" placeholder="">
+        </label>
+      </ion-list>
+      <div class="spacer" style="width: 300px; height: 34.9931px;"></div>
+      <a ui-sref="home.misCitas" id="login-button2" class="button button-energized  button-block transparent">Log in</a>
+      <a ui-sref="signup" id="login-button3" class="button button-positive  button-block button-clear">O crear una cuenta</a>
+    </form>
+  </ion-content>
+</ion-view>
